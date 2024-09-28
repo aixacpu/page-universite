@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Université La Havana</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+            <img src="5B089E01-8252-4E65-8B92-4547838F21B4.tiff" alt="Logo Université LH">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="apropos.html">À propos</a></li>
+                <li><a href="facultes.html">Facultés</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenue à l'Université La Havana</h1>
+        <p>Excellence académique et innovation pour un avenir meilleur.</p>
+    </section>
+
+    <section class="services">
+        <h2>Nos Services</h2>
+        <div class="service-item">
+            <h3>Bibliothèque</h3>
+            <p>Accès à des ressources académiques vastes et variées.</p>
+        </div>
+        <div class="service-item">
+            <h3>Inscriptions</h3>
+            <p>Inscrivez-vous facilement en ligne pour nos programmes académiques.</p>
+        </div>
+        <h2>Formulaire de contact</h2>
+        <form action="/envoyer_contact" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telephone">Numéro de téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <header>
+    </header>
+    <footer>
+        <p>&copy; 2024 Université La Havana .</p>
+    </footer>
+</body>
+</html>
